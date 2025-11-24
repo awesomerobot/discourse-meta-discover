@@ -1,4 +1,26 @@
-TODO_plugin_name:
-  plugin_name_enabled:
+plugins:
+  discover_enabled:
     default: false
     client: true
+
+  discover_api_url:
+    default: "https://discover.discourse.com"
+    client: false
+
+  discover_api_key:
+    default: ""
+    secret: true
+    client: false
+
+  discover_api_username:
+    default: "system"
+    client: false
+
+  discover_category_slug:
+    default: "discover"
+    client: false
+
+  discover_category_id:
+    default: 5
+    client: false
+    min: 1

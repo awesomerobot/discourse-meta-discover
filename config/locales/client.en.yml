@@ -3,7 +3,12 @@ en:
     admin:
       site_settings:
         categories:
-          TODO_plugin_name: "Plugin Name"
+          discover: "Discover"
   js:
-    discourse_plugin_name:
-      placeholder: placeholder
+    discover:
+      title: "Discover Sites"
+      filter_by_locale: "Filter by locale"
+      filter_by_category: "Filter by category"
+      search_placeholder: "Search sites..."
+      no_sites: "No sites found"
+      refresh: "Refresh"

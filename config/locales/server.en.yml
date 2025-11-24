@@ -1,1 +1,10 @@
 en:
+  site_settings:
+    discover_enabled: "Enable Discourse Meta Discover plugin"
+    discover_api_url: "Source Discourse URL to fetch sites from"
+    discover_api_key: "API key for authentication (optional)"
+    discover_api_username: "API username for requests"
+    discover_category_slug: "Category slug to fetch discover sites from"
+    discover_category_id: "Category ID to fetch discover sites from"
+    discover_sync_interval_hours: "Hours between automatic site syncs"
+    discover_show_route: "Enable the /discover route"
